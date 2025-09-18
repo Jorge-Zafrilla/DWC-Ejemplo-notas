@@ -18,7 +18,7 @@ console.log('Notas válidas: ' + clearedGrades)
 console.log('El primer suspenso es: ' + firstFailed(clearedGrades))
 
 const passed = passedGrades(clearedGrades)
-console.log(` Hay ${passed.grades} aprobados que son: ${passed}`)
+console.log(`Hay ${passed.length} aprobados que son: ${passed}`)
 
 console.log('La nota media es: ' + avgGrade(clearedGrades))
 
