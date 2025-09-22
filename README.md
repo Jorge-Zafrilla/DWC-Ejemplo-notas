@@ -19,7 +19,7 @@ Organizaremos el código en 2 ficheros:
 -	avgGrade(notas): devuelve la media de las notas redondeada a 2 decimales
 -	finalGrades(notas, orcentaje): devuelve un nuevo array con cada nota incrementada el porcentaje pasado y redondeada sin decimales
 
-En el fichero _functions.js_ utilizaremos **métodos de arrays** en lugar de bucles. Para poder testear el código como en el ejercicio anterior al final añadiremos la instrucción:
+Para poder testear el código como en el ejercicio anterior al final añadiremos la instrucción:
 ```javascript
 module.exports = {
 	addGrades,
